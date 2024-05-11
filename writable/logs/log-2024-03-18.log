@@ -1,0 +1,96 @@
+INFO - 2024-03-18 01:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-18 01:41:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout.php')
+ 2 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('layout', [], true)
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dosen/index', [], true)
+ 4 APPPATH\Controllers\Dosen.php(31): view('dosen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dosen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\project\\public\\index.php')
+CRITICAL - 2024-03-18 04:10:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dosen/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dosen/index.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dosen/index', [], true)
+ 3 APPPATH\Controllers\Dosen.php(31): view('dosen/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dosen->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\project\\public\\index.php')
+INFO - 2024-03-18 04:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-18 04:10:38 --> ErrorException: Undefined variable: DataDosen
+in APPPATH\Views\dosen.php on line 37.
+ 1 APPPATH\Views\dosen.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: DataDosen', 'C:\\xampp\\htdocs\\project\\app\\Views\\dosen.php', 37, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\project\\app\\Views\\dosen.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(31): view('dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dosen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\project\\public\\index.php')
+INFO - 2024-03-18 04:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-18 04:10:40 --> ErrorException: Undefined variable: DataDosen
+in APPPATH\Views\dosen.php on line 37.
+ 1 APPPATH\Views\dosen.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: DataDosen', 'C:\\xampp\\htdocs\\project\\app\\Views\\dosen.php', 37, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\project\\app\\Views\\dosen.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(31): view('dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dosen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\project\\public\\index.php')
+INFO - 2024-03-18 04:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-18 04:11:00 --> ErrorException: Undefined variable: DataDosen
+in APPPATH\Views\dosen.php on line 37.
+ 1 APPPATH\Views\dosen.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: DataDosen', 'C:\\xampp\\htdocs\\project\\app\\Views\\dosen.php', 37, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\project\\app\\Views\\dosen.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(31): view('dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dosen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\project\\public\\index.php')
+INFO - 2024-03-18 04:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-18 04:11:08 --> ErrorException: Undefined variable: DataDosen
+in APPPATH\Views\dosen.php on line 37.
+ 1 APPPATH\Views\dosen.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: DataDosen', 'C:\\xampp\\htdocs\\project\\app\\Views\\dosen.php', 37, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\project\\app\\Views\\dosen.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(31): view('dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dosen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\project\\public\\index.php')
+INFO - 2024-03-18 04:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 04:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 04:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 04:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 04:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 04:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 04:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 04:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 04:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-18 04:13:03 --> ErrorException: Undefined index: id
+in APPPATH\Views\dosen.php on line 44.
+ 1 APPPATH\Views\dosen.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id', 'C:\\xampp\\htdocs\\project\\app\\Views\\dosen.php', 44, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\project\\app\\Views\\dosen.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dosen', [], true)
+ 5 APPPATH\Controllers\Dosen.php(31): view('dosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Dosen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosen))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\project\\public\\index.php')
+INFO - 2024-03-18 04:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
